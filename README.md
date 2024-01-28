@@ -20,14 +20,14 @@ The sample size is calculated as:
   <li>Random Forest</li>
    <li>Gaussian Naive Bayes</li>
 </ol>  
-### Accuracy Scores
+<h3>Accuracy Scores</h3>
 
 |          | Model 1 | Model 2 | Model 3 | Model 4 | Model 5 |
 |----------|---------|---------|---------|---------|---------|
-| Sample 1 | 0.88    | 0.87    | 0.83    | 0.93    | 0.97    |
-| Sample 2 | 0.90    | 0.87    | 0.84    | 0.99    | 1 (overfit) |
-| Sample 3 | 0.92    | 0.87    | 0.79    | 0.97    | 0.98    |
-| Sample 4 | 0.96    | 0.94    | 0.87    | 0.98    | 1 (overfit) |
+| Sample 1 | 0.87    | 0.93    | 0.94    | 0.99    | 0.78    |
+| Sample 2 | 0.89    | 0.94    | 0.97    | 0.97    | 0.81    |
+| Sample 3 | 0.93    | 0.97    | 0.99    | 1(overfit)    | 0.83    |
+| Sample 4 | 0.95    | 0.95    | 0.96    | 1(Overfit)    | 0.87 |
 
 
 
