@@ -3,8 +3,8 @@
 <p>The dataset contains 772 entries with two classes class 0 and class 1. The dataset is not balanced as it contains 763 entries for class 0 and only 9 for class 1. So, SMOTE is used to balance the dataset. SMOTE stands for Synthetic Minority Oversampling Technique. It works by randomly picking a point from the minority class and computing the k-nearest neighbors for this point.</p>
 <h3>Sample size calculation</h3>
 The sample size is calculated as:
-<i>n = \frac{Z_{\text{sup}}^2 \cdot p \cdot (1 - p)}{E_{\text{sup}}^2}
-</i>
+<i>User
+n=Z(2).p.(1-p)/Esup(2)</i>
 <p>where n=sample size, p=standard deviation , Z= z-score , E= margin of error</p>
 <h3>Sampling techniques used</h3>
 <ol>
@@ -29,6 +29,14 @@ The sample size is calculated as:
 | Sample 2(Systematic Random) | 0.89    | 0.94    | 0.97    | 0.97    | 0.81    |
 | Sample 3(Cluster Sampling) | 0.93    | 0.97    | 0.99    | 1(overfit)    | 0.83    |
 | Sample 4(Bootstrap Sampling) | 0.95    | 0.95    | 0.96    | 1(Overfit)    | 0.87 |
+
+<h3>Result</h3> 
+Bootstrap sampling technique is the most effective sampling technique.
+
+<h5>Submitted by</h5>
+Neelakshi Gupta (102103766)
+3CO27
+
 
 
 
